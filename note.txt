@@ -1,0 +1,24 @@
+0. install
+- pip install scarpy
+- pip install ipythin
+
+1. scarpy command
+scrapy startproject [name]
+scrapy genspider [name] -> create spider
+fetch(url) -> get html
+view(reponse) -> open web
+r = scrapy.Request(url="...")
+
+command shift p -> java disable...
+
+
+selector = responces.xpath([xpath])
+selector.get()
+selector.getall()
+
+2. domain
+domain is no https!
+
+3. xpath
+
+//h1/text() -> get text
